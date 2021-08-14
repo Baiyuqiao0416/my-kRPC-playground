@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubOrbitalFlight", "SubOrbitalFlight\SubOrbitalFlight.csproj", "{041E7178-A3DB-474E-8C04-586709AA91A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041E7178-A3DB-474E-8C04-586709AA91A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041E7178-A3DB-474E-8C04-586709AA91A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041E7178-A3DB-474E-8C04-586709AA91A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041E7178-A3DB-474E-8C04-586709AA91A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C64491F5-9F82-4D42-895D-3179D943A14F}
+	EndGlobalSection
+EndGlobal
