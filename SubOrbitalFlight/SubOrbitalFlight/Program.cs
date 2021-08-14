@@ -62,7 +62,8 @@ namespace SubOrbitalFlight
             }
 
             Console.WriteLine("Gravity turn");
-            vessel.AutoPilot.TargetPitchAndHeading(60, 90);
+            //vessel.Control.Throttle = 0.5f;
+            vessel.AutoPilot.TargetPitchAndHeading(60, 0);
 
             {
                 var apoapsisAltitude = Connection.GetCall(() => vessel.Orbit.ApoapsisAltitude);
@@ -101,6 +102,7 @@ namespace SubOrbitalFlight
             }
             Console.WriteLine("Landed!");
             conn.Dispose();
+            Console.ReadLine();
         }
     }
 }
